@@ -7,12 +7,14 @@ using System.Threading.Tasks;
 
 namespace Coop.Data
 {
-    public class CoopDbContext: DbContext
+    public class CoopDbContext : DbContext
     {
-        public CoopDbContext(DbContextOptions<CoopDbContext>options):base(options)
-           {
+      public CoopDbContext(DbContextOptions<CoopDbContext> options) 
+            : base(options)
+      {
 
-           }
-        public DbSet<ProduceType> ProduceTypes { get; set; }
+      }
+        public DbSet<ProduceType> ProduceType { get; set; }
+        
     }
 }

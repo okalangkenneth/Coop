@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Coop.Migrations
 {
     [DbContext(typeof(CoopDbContext))]
-    [Migration("20210705192103_SeedDatabase")]
-    partial class SeedDatabase
+    [Migration("20210712183500_InitialModel")]
+    partial class InitialModel
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -56,7 +56,7 @@ namespace Coop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ProduceTypes");
+                    b.ToTable("ProduceType");
                 });
 
             modelBuilder.Entity("Coop.Models.ProduceName", b =>

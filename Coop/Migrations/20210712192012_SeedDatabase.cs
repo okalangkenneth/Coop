@@ -22,6 +22,7 @@ namespace Coop.Migrations
             migrationBuilder.Sql("INSERT INTO ProduceNames (Name,ProduceTypeID) VALUES ('ProduceType3-ProduceNameB',(SELECT ID FROM ProduceTypes WHERE Name = 'ProduceType3'))");
             migrationBuilder.Sql("INSERT INTO ProduceNames (Name,ProduceTypeID) VALUES ('ProduceType3-ProduceNameC',(SELECT ID FROM ProduceTypes WHERE Name = 'ProduceType3'))");
 
+
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

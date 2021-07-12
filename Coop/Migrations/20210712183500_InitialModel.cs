@@ -2,21 +2,21 @@
 
 namespace Coop.Migrations
 {
-    public partial class InitModel : Migration
+    public partial class InitialModel : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "produceTypes",
+                name: "ProduceType",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Name = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_produceTypes", x => x.Id);
+                    table.PrimaryKey("PK_ProduceType", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -25,16 +25,16 @@ namespace Coop.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Name = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     ProduceTypeId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_ProduceName", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_ProduceName_produceTypes_ProduceTypeId",
+                        name: "FK_ProduceName_ProduceType_ProduceTypeId",
                         column: x => x.ProduceTypeId,
-                        principalTable: "produceTypes",
+                        principalTable: "ProduceType",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -51,7 +51,7 @@ namespace Coop.Migrations
                 name: "ProduceName");
 
             migrationBuilder.DropTable(
-                name: "produceTypes");
+                name: "ProduceType");
         }
     }
 }

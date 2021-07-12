@@ -54,7 +54,7 @@ namespace Coop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ProduceTypes");
+                    b.ToTable("ProduceType");
                 });
 
             modelBuilder.Entity("Coop.Models.ProduceName", b =>
