@@ -10,6 +10,7 @@ namespace Coop.Mapping
         {
             CreateMap<ProduceType, ProduceTypeResource>();
             CreateMap<ProduceName, ProduceNameResource>();
+
         }
     }
 }
