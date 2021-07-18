@@ -22,8 +22,5 @@ namespace Coop.Controllers
         [HttpGet("/api/produceTypes")]
         public async Task <IEnumerable<ProduceTypeResource>>GetProduceTypes()
         {
-            var produceTypes = await context.ProduceType.Include(m=> m.ProduceNames).ToListAsync();
-            return mapper.Map<List<ProduceType>, List<ProduceTypeResource>>(produceTypes);
-        }
-    }
-}
+            var produceTypes = await context.ProduceTypes.Include(m=> m.ProduceNames).ToListAsync();
+            return mapper.Map<List<ProduceType>, List<ProduceTypeResource>>((List<ProduceType>)prod

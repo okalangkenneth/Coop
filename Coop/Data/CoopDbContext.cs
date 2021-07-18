@@ -9,12 +9,13 @@ namespace Coop.Data
 {
     public class CoopDbContext : DbContext
     {
-      public CoopDbContext(DbContextOptions<CoopDbContext> options) 
+       
+        public CoopDbContext(DbContextOptions<CoopDbContext> options) 
             : base(options)
       {
 
       }
-        public DbSet<ProduceType> ProduceType { get; set; }
+        public DbSet<ProduceType> ProduceTypes { get; set; }
         
     }
 }

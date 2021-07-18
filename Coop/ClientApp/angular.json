@@ -5,7 +5,7 @@
   "projects": {
     "Coop": {
       "root": "",
-      "sourceRoot": "src",
+      "sourceRoot": "ClientApp",
       "projectType": "application",
       "prefix": "app",
       "schematics": {},
