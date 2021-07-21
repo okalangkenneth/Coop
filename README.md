@@ -24,7 +24,7 @@
  the produce name like cassava, peas, beans. In addition there are features like baged,cleaned and quantity
  associated with all the produce which will aslo be recorded. The user will be able to upload one or more photos for the produce , sort and filter the produce.
  There will be two roles for authorisation,the AMUCOS personnel
- and Admin. A report of produce sales by produc type can be displayed in a pie chart so anyone with admin acess can view this report. In addition someone who has not logged in will only be able to browse the produce.
+ and the admin. A report of produce sales can be displayed in a pie chart so anyone with admin access can view this report. In addition someone who has not logged in will only be able to browse the produce.
 
 
 
