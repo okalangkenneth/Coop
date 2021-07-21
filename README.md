@@ -68,7 +68,7 @@ To do:
 ## Acknowledgements
 
 - This project was inspired by Udemy.
-- This project was based on [this tutorial](https://www.udemy.com/course/aspnet-core-angular/learn/lecture/6692962?start=15#overview).
+- This project was based on [this tutorial](https://www.udemy.com/course/aspnet-core-angular/).
 - Many thanks to Mosh Hamedani
 
 
