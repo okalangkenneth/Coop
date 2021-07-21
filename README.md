@@ -67,9 +67,9 @@ To do:
 
 ## Acknowledgements
 
-- This project was inspired by DZone. Web Dev Zone.
-- This project was based on [this tutorial](https://dzone.com/articles/use-aspnet-web-api-and-angular-to-build-a-simple-a).
-- Many thanks to Lee Brandt
+- This project was inspired by Udemy.
+- This project was based on [this tutorial](https://www.udemy.com/course/aspnet-core-angular/learn/lecture/6692962?start=15#overview).
+- Many thanks to Mosh Hamedani
 
 
 ## Contact
