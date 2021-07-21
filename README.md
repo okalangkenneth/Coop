@@ -20,12 +20,11 @@
 ## General Information
  Coop will assist farmers to find potential buyers of their produce. The farmer will make a call to an administrator at AMUCOS to register
  his/her produce in thier database. Buyers will then be able to browse the produce in the database and if interested in a particular produce they will 
- call AMUCOS for details. As part of recording the produce for sale the produce type is required. For example cereal, root crop or legume.
- The produce name will also be recorded like cassava, peas, beans. In addition there are features like 'Baged','Cleaned'and 'Quantity'
- associated with all the produce. It will also be possible to determine whether a produce is registered or not, the farmers name and contact information.
- The user will aslo be able to upload one or more photos for the produce , sort and filter the produce. There will be two roles for authorisation,the AMUCOS personnel
- and Admin. A report of produce sales by produc type can be displayed in a pie chart so anyone with admin acess can view this report. In addition someone who has not logged in
- they will only be able to browse the produce.
+ call AMUCOS for details. Records of the produce type will be taken for example cereal, root crop or legume as well as 
+ the produce name like cassava, peas, beans. In addition there are features like baged,cleaned and quantity
+ associated with all the produce which will aslo be recorded. The user will be able to upload one or more photos for the produce , sort and filter the produce.
+ There will be two roles for authorisation,the AMUCOS personnel
+ and Admin. A report of produce sales by produc type can be displayed in a pie chart so anyone with admin acess can view this report. In addition someone who has not logged in will only be able to browse the produce.
 
 
 
