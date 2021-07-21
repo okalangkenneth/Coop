@@ -1,6 +1,9 @@
 # Coop
-> I will be building a Web application for a Cooperative Union in Uganda called AMUCOS to track defects in an application.
-> I will first build a REST service with ASP.NET Web API 2 and then I will implement a SPA that will consume my API. I will aslo secure my applaication.
+> I will be building a Web application for a Cooperative Union in Uganda called AMUCOS to assist in thier marketing efforts by using Angular 2 on the client side
+> to build forms and 
+> ASP.NET Core on the server side and Entity Framework Core. The application will be centered around CRUD, filtering, sorting and pagination, handling and logging errors
+> toast notifications, authentification and authorisation and preventing CSRF attacks. The application will have a simple UI and not something that is visually outstanding
+> 
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
