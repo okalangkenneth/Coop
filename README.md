@@ -70,7 +70,7 @@ To do:
 
 ## Acknowledgements
 
-- This project was inspired by [Farm Logs](https://farmlogs.com/) A farm management app, designed to help farmers execute their grain marketing decisions.
+- This project was inspired by [Farm Logs](https://farmlogs.com/).A farm management app, designed to help farmers execute their grain marketing decisions.
 - This project was based on [this tutorial](https://www.udemy.com/course/aspnet-core-angular/).
 - Many thanks to Mosh Hamedani
 
