@@ -70,7 +70,7 @@ To do:
 
 ## Acknowledgements
 
-- This project was inspired by Udemy.
+- This project was inspired by [Farm Logs](https://farmlogs.com/)
 - This project was based on [this tutorial](https://www.udemy.com/course/aspnet-core-angular/).
 - Many thanks to Mosh Hamedani
 
