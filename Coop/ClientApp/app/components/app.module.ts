@@ -7,8 +7,8 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
-import { CounterComponent } from './counter/counter.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
+
+
 import { ProduceformComponent } from './produceform/produceform.component';
 import { ProduceService } from '../services/produce.service';
 
@@ -17,8 +17,7 @@ import { ProduceService } from '../services/produce.service';
     AppComponent,
     NavMenuComponent,
     HomeComponent,
-    CounterComponent,
-    FetchDataComponent,
+    
     ProduceformComponent,
   ],
   imports: [
@@ -28,8 +27,7 @@ import { ProduceService } from '../services/produce.service';
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'produce/new', component: ProduceformComponent },
-      { path: 'counter', component: CounterComponent },
-      { path: 'fetch-data', component: FetchDataComponent },
+      
     ])
   ],
   providers: [
