@@ -9,13 +9,20 @@ namespace Coop.Data
 {
     public class CoopDbContext : DbContext
     {
+        public DbSet<ProduceType> ProduceTypes { get; set; }
+        public DbSet<Feature> Features { get; set; }
+
        
         public CoopDbContext(DbContextOptions<CoopDbContext> options) 
             : base(options)
       {
 
       }
-        public DbSet<ProduceType> ProduceTypes { get; set; }
-        
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<ProduceFeature>().HasKey(vf =>
+              new { vf.ProduceId, vf.FeatureId });
+        }
+
     }
 }
