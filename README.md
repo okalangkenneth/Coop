@@ -1,8 +1,8 @@
 # Coop
 > I will be building a Web application for a Cooperative Union in Uganda called AMUCOS to assist with thier marketing efforts by using Angular 2 on the client side
 > to build forms and 
-> ASP.NET Core on the server side and Entity Framework Core for the database. The application will be centered around CRUD, filtering, sorting and pagination, handling and logging errors
-> toast notifications, authentification and authorisation and preventing CSRF attacks. The application will have a simple UI and not something that is visually outstanding
+> ASP.NET Core on the server side and Entity Framework Core for the database. The application will be centered around CRUD, filtering, sorting and pagination, handling and logging errors,
+> toast notifications, authentication and authorisation and preventing CSRF attacks. The application will have a simple UI and not something that is visually outstanding
 > 
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
