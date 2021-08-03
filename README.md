@@ -36,6 +36,7 @@
 - ASP.NET MVC 5 
 - Angular 2
 - EntityFramework 6
+- APIs
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
