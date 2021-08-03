@@ -25,7 +25,7 @@
  his/her produce in thier database. Buyers will then be able to browse the produce in the database and if interested in a particular produce they will 
  call AMUCOS for details. Records of the produce type will be taken for example cereal, root crop or legume as well as 
  the produce name like cassava, peas, beans. In addition there are features like baged,cleaned and quantity
- associated with all the produce which will aslo be recorded. The user will be able to upload one or more photos for the produce , sort and filter the produce.
+ associated with all the produce which will aslo be recorded. The farmer will be able to upload one or more photos for the produce , sort and filter the produce.
  There will be two roles for authorisation,the AMUCOS personnel
  and the admin. A report of produce sales can be displayed in a pie chart so anyone with admin access can view this report. In addition someone who has not logged in will only be able to browse the produce.
 
